@@ -90,7 +90,7 @@ class Homepage extends StatelessWidget {
                 physics:
                     NeverScrollableScrollPhysics(), // Disables internal scrolling
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, // 2 items per row for better visibility
+                  crossAxisCount: 3, // 2 items per row for better visibility
                   mainAxisSpacing: 10,
                   crossAxisSpacing: 10,
                   childAspectRatio: 0.8, // Adjusts item height
